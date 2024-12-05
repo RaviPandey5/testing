@@ -39,7 +39,9 @@ def main():
 	elif choice == "Prediction":
 		run_ml_app()
 	else:
-		path_to_html = (r"IMG\mumbai_property.html")
+		import os
+		path_to_html = os.path.join("IMG", "mumbai_property.html")
+		
 
 		with open(path_to_html,'r') as f: 
 			html_data = f.read()
