@@ -9,7 +9,7 @@ def run_eda_app():
 	df = pd.read_csv("Final_Project.csv")
 
 	if submenu == "Descriptive":
-		img1 = Image.open("IMG\Real_Estate.jpg")
+		img1 = Image.open(r"IMG\Real_Estate.jpg")
 		st.image(img1)
 		
 		with st.expander("Dataset"):
@@ -39,7 +39,7 @@ def run_eda_app():
 		# 	st.image(img4)
 
 		with st.expander("Price with respect to Property Age"):
-			img5 = Image.open("IMG\Price_Age_Distribution.png")
+			img5 = Image.open(r"IMG\Price_Age_Distribution.png")
 			st.image(img5)
 
 		# with st.expander("Price with respect to SqFt Area"):
@@ -47,13 +47,13 @@ def run_eda_app():
 		# 	st.image(img6)
 
 		with st.expander("Central Mumbai Property Price"):
-			img7 = Image.open("IMG\Central Mumbai-removebg-preview.jpg")
+			img7 = Image.open(r"IMG\Central Mumbai-removebg-preview.jpg")
 			st.image(img7)
 
 		with st.expander("South Mumbai Property Price"):
-			img8 = Image.open("IMG\South Mumbai-removebg-preview.jpg")
+			img8 = Image.open(r"IMG\South Mumbai-removebg-preview.jpg")
 			st.image(img8)
 
 		with st.expander("Thane Property Price"):
-			img9 = Image.open("IMG\Thane-removebg-preview.jpg")
+			img9 = Image.open(r"IMG\Thane-removebg-preview.jpg")
 			st.image(img9)
