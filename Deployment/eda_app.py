@@ -47,13 +47,13 @@ def run_eda_app():
 		# 	st.image(img6)
 
 		with st.expander("Central Mumbai Property Price"):
-			img7 = Image.open(r"IMG\Central Mumbai-removebg-preview.jpg")
+			img7 = Image.open(r"IMG/Central Mumbai-removebg-preview.jpg")
 			st.image(img7)
 
 		with st.expander("South Mumbai Property Price"):
-			img8 = Image.open(r"IMG\South Mumbai-removebg-preview.jpg")
+			img8 = Image.open(r"IMG/South Mumbai-removebg-preview.jpg")
 			st.image(img8)
 
 		with st.expander("Thane Property Price"):
-			img9 = Image.open(r"IMG\Thane-removebg-preview.jpg")
+			img9 = Image.open(r"IMG/Thane-removebg-preview.jpg")
 			st.image(img9)
