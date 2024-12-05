@@ -39,7 +39,8 @@ def run_eda_app():
 		# 	st.image(img4)
 
 		with st.expander("Price with respect to Property Age"):
-			img5 = Image.open(r"IMG\Price_Age_Distribution.png")
+			img5 = Image.open(r"IMG/Price_Age_Distribution.png")
+
 			st.image(img5)
 
 		# with st.expander("Price with respect to SqFt Area"):
