@@ -1,5 +1,5 @@
 ﻿setuptools
-altair
+altair<5
 attrs
 blinker
 cachetools
